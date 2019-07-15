@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Character Quiz</title>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Which Jurassic Park Character Are You?</h1>
+    <p class="p1">In the land of Jurassic Park where you never know whats watching. Life will find a way and you will find out which character you are.</p>
+    <p id= butts> Hold on to your butts!! </p>
+<!-- -------------------- 1st question ------------------------- -->
+    <form id="jurassic">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>Are you facinated by the historical creaters that walked the lands many days ago as know as dinosours?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group1" value="absolutly">
+              Absolutly!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group1" value="dead">
+              They're dead.. why do I care?
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group1" value="notAround">
+              Im happy they're not around, not my kind of pet.
+            </label>
+          </div>
+        </div>
+      </div>
+<!-- -------------------- 2nd question ------------------------- -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>Are the adventurous type?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" value="adventurous">
+              Every day is an adventure for me!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" value="lame">
+              I enjoy the mellow joys of life.. like my couch or office chair.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" value="both">
+              I can be a little bit.
+            </label>
+          </div>
+        </div>
+      </div>
+<!-- -------------------- 3rd question ------------------------- -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>Flight,fight or freeze?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" value="flight">
+              Flight, cant catch me.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" value="fight">
+              Im a fighter, come at me!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" value="freeze">
+              Freeze... Happens everytime... maybe if I dont move they cant see me.
+            </label>
+          </div>
+        </div>
+      </div>
+<!-- -------------------- 4th question ------------------------- -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>The greater good of humanity or 1 MILLION DOLLARS?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="humanity">
+              Humanity, definitly humanity.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="cash">
+               I hate everyone anyways! Im taking the cash!
+            </label>
+          </div>
+        </div>
+      </div>
+<!-- -------------------- 5th question ------------------------- -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h2>How does an exotic vacation via helicopter ride sound?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="Yes">
+              Let's do it!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="No">
+              Not my type of party.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="Yes">
+              Along for the free adventure.
+            </label>
+          </div>
+        </div>
+      </div>
+        <!-- ---Submit btn---- -->
+      <button type="submit" class="btn">Who am I?</button>
+    </form>
+
+    <div id="result">
+      <p>Our highly skilled team of private scientist have created a thoery based on your selections above. Lets show the world our new creation <span id ="character"></span>!</p>
+
+    </div>
+  </div>
+</body>
+</html>

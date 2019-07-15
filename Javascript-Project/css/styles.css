@@ -1,0 +1,49 @@
+body {
+  background-color: red;
+  background-image: url("https://consequenceofsound.net/wp-content/uploads/2015/06/jurassic-park-logo1.png?w=807");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-blend-mode: saturation;
+}
+h1 {
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 30px;
+  font-weight: bold;
+
+}
+.botton1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h2 {
+  font-size: 24px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+
+}
+.p1 {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-family: mpact, Charcoal, sans-serif;
+}
+
+.panel-body {
+  background-color: yellow;
+  border: solid 3px black;
+  box-shadow: 5px 5px 2px #aaaaaa;
+}
+#butts {
+  font-weight: bolder;
+  font-stretch: expanded;
+}
+
+#result {
+  display: none;
+}
